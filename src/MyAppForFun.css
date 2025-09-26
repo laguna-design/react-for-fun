@@ -1,0 +1,17 @@
+/* In your CSS */
+.avatar {
+  border-radius: 50%;
+}
+
+.tic-tac-toe{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.tic-tac-toe > .board-row{
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+}
